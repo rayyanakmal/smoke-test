@@ -5,3 +5,19 @@ __pycache__/
 .pytest_cache/
 .coverage
 *.pyc
+
+# Hygiene (added by automated audit)
+# Environment
+# Python
+*.pyo
+*.egg-info/
+# macOS
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# Build
+dist/
+build/
+*.egg/
